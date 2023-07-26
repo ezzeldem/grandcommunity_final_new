@@ -1,0 +1,73 @@
+.grand-table-button {
+  width: 35.35px !important;
+  height: 35.35px;
+  border-radius: 2px;
+  background-color: var(--brown_color) !important;
+  display: grid;
+  place-content: center;
+  color: var(--white_color) !important;
+  border: 0 !important;
+  @include trans(0.2);
+  @extend.curserphoto;
+  i {
+      @include trans(0.2);
+  }
+  &:hover {
+      &,
+      i {
+          color: var(--gold_color) !important;
+      }
+  }
+}
+
+
+.grand-top-button{
+        padding: 13px 20px !important;
+        color: #FAFAFA !important;
+        font-weight: 500 !important;
+        font-size: 16px !important;
+        background-color: #0B0B0B !important;
+        @extend.curserphoto;  @include trans(0.2);
+        &:hover{
+        background-color: var(--gold_color) !important;
+            }
+            
+        
+}
+.grand-button-step{
+    padding: 20px 90px !important;
+    background-color: var(--gold_color) !important;
+    font-weight: 600;
+    font-size: 22px;
+    @include trans(0.2);
+    @extend.curserphoto;
+    width: fit-content !important;
+}
+
+@mixin buttonTemplate{
+    button, a {
+        &:after, &::before{
+            display: none !important;
+        }
+        &.btn {
+            padding: 14px 12px !important;
+            height: 100% !important;
+            width: 100% !important;
+            background-color: var(--gold_color) !important;
+            background: var(--gold_color) !important;
+            max-width: fit-content !important;
+            &#reset_sub_brand, &#go_reset_branche_filters {
+                background: #46484a !important;
+                background-color: #46484a !important;
+            }
+            &#btn_delete_all_branch {
+                background: #E4272799 !important;
+                background-color: #E4272799 !important;
+            }
+            &.add_branch_brand,&.export {
+                background: #0B0B0B !important;
+                background-color: #0B0B0B !important;
+            }
+        }
+    }
+}

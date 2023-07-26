@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "../../../node_modules/element-ui/packages/theme-chalk/src/menu-item-group.scss"
+    ],
+    "names": [],
+    "file": "menu-item-group.css"
+}

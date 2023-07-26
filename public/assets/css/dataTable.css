@@ -1,0 +1,142 @@
+.custom-table thead ,
+table thead{
+    background: #181818 !important;
+    border: 0 !important;
+    border-bottom: 1px solid #111111 !important;
+    color: #fff !important;
+}
+.custom-table>tbody tr ,
+table>tbody tr{
+    background-color: #181818 !important;
+    border-bottom: 1px solid #cccccc0f !important;
+}
+.table td{
+    background-color: #181818 !important;
+    border-top: 1px solid #cccccc0f !important;
+}
+.custom-table input[type="checkbox"],
+table input[type="checkbox"]{
+    accent-color: #9b7128 !important
+}
+.custom-table th,
+table th{
+    border: 0 !important
+}
+._username_influncer,
+._country_table,
+._phone_table,
+._createdAt_table{
+    align-items: center !important;
+    cursor: default !important;
+    display: inline-flex !important;
+    line-height: 20px !important;
+    max-width: 100% !important;
+    outline: none !important;
+    overflow: hidden !important;
+    padding: 0 12px !important;
+    position: relative !important;
+    text-decoration: none !important;
+    transition-duration: 0.28s !important;
+    transition-property: box-shadow, opacity !important;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1) !important;
+    vertical-align: middle !important;
+    white-space: nowrap !important;
+    border-radius: 4px !important;
+    border-color: rgba(255, 255, 255, 0.12) !important;
+    color: #FFFFFF !important;
+    border-width: thin !important;
+    border-style: solid !important;
+    padding: 5px 12px !important;
+    transition: 0.3s all ease-in-out !important;
+    font-size: 12px !important;
+}
+._username_influncer:hover,
+._country_table:hover,
+._phone_table:hover,
+._createdAt_table:hover{
+    background-color: rgba(255, 255, 255, 0.12);
+    color: #fff;
+}
+._phone_table i,
+._createdAt_table i{
+    font-size: 11px !important;
+    margin-right: 3px
+}
+.custom-table>tbody td {
+    text-align: start !important;
+}
+.custom-table>tbody td .morelink {
+    color: #3c3c3c !important;
+}
+.status-active{
+    background: #3b7f34 !important;
+    color: #ffffff !important;
+    padding: 7px 12px !important;
+    font-size: 12px !important;
+    border-radius: 3px !important;
+}
+.status-active{
+    background: #3b7f34 !important;
+    color: #ffffff !important;
+    padding: 7px 12px !important;
+    font-size: 12px !important;
+    border-radius: 3px !important;
+}
+.status-pending{
+    background: #535353 !important;
+    color: #101010 !important;
+    padding: 7px 12px !important;
+    font-size: 12px !important;
+    border-radius: 3px !important;
+}
+.status-reject{
+    background: #C52929 !important;
+    color: #fff !important;
+    padding: 7px 12px !important;
+    font-size: 12px !important;
+    border-radius: 3px !important;
+}
+.status-inActive{
+    background: #9B7029 !important;
+    color: #fff !important;
+    padding: 7px 12px !important;
+    font-size: 12px !important;
+    border-radius: 3px !important;
+}
+.icon-beenhere{
+    color: #3b7f34 !important;
+}
+.icon-circle-with-cross{
+    color: #C52929 !important;
+}
+._type_chip{
+    align-items: center;
+    cursor: default;
+    display: inline-flex;
+    line-height: 20px;
+    max-width: 100%;
+    outline: none;
+    overflow: hidden;
+    padding: 0 12px;
+    position: relative;
+    text-decoration: none;
+    transition-duration: 0.28s;
+    transition-property: box-shadow, opacity;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    vertical-align: middle;
+    white-space: nowrap;
+    border-color: rgba(255, 255, 255, 0.12);
+    color: #FFFFFF;
+    border-radius: 16px;
+    font-size: 14px;
+    height: 32px;
+    background: #555;
+}
+._type_chip i{
+    color: #3b7f34 !important;
+    margin-left: 5px;
+}
+#code, #test_code, .copy-text-area textarea{
+    background-color: transparent !important;
+}
+

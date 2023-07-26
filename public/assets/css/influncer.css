@@ -1,0 +1,76 @@
+.dataTables_scrollHeadInner{
+    width: 100% !important
+}
+/* .dataTables_scroll{
+    width: 100% !important
+}
+@media(max-width:1600px){
+    .dataTables_scroll{
+        width: fit-content !important;
+    }
+} */
+.filterFormInfluence-sidebar{
+    z-index: 999;
+}
+.multiple_select_classification .btn-group {
+    width: 100% !important;
+}
+.multiple_select_classification button {
+    background: #202020 !important;
+    border: 1px solid #202020 !important;
+    border-radius: 2px;
+}
+.inputs>label {
+    color: #c4c4c4 !important;
+}
+.filter-form.filterFormInfluence-sidebar{
+    flex-direction:column !important;
+    background-color: #0c0c0c !important;
+    padding: 10px !important;
+}
+@media(max-width: 480px){
+    .filter-form.filterFormInfluence-sidebar{
+        /* flex-direction:row !important; */
+    }
+}
+.filter-form.filterFormInfluence-sidebar .accordion .card-header{
+    margin-bottom: 0px !important;
+    background-color: #121212 !important;
+    border-bottom: 1px solid #2f2f2f;
+    padding: 14px 7px;
+
+}
+.filter-form.filterFormInfluence-sidebar .accordion .card-header:hover{
+    background-color: #252525 !important;
+}
+.filter-form.filterFormInfluence-sidebar .card-header button{
+    background-color: transparent !important;
+    color: #fff !important;
+    font-weight: bold;
+    border: 0;
+}
+.filter-form.filterFormInfluence-sidebar .card-header button:focus{
+    outline: 0;
+    border: 0;;
+    box-shadow: none;
+}
+.filter-form.filterFormInfluence-sidebar button.collapsed {
+    border: 0;
+}
+.accordion .collapse{
+    margin: 25px;
+    width: 100%;
+}
+.filter-form.filterFormInfluence-sidebar .inputs.mb-2{
+    width: 100% !important
+}
+@media (max-width: 991px){
+    .filterFormInfluence-sidebar {
+        width: 100%;
+        padding: 15px 5px
+    }
+}
+
+.filter-form.filterFormInfluence-sidebar .form-control{
+    height: 38px !important
+}

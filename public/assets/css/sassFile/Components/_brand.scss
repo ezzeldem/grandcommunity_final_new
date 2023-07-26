@@ -1,0 +1,162 @@
+.grand-brand-table {
+    div.dataTables_wrapper div.dataTables_filter input {
+        border-radius: 2px !important;
+        height: 40px !important;
+        padding: 18px !important;
+        background: #0b0b0b !important;
+    }
+    .custom-table {
+        & > {
+            tbody {
+                td {
+                    &.actions {
+                        display: flex;
+                        align-items: center;
+                        a,
+                        button {
+                            margin-right: 2px;
+                        }
+                    }
+
+                    ._username_influncer,
+                    ._country_table,
+                    ._phone_table,
+                    ._createdAt_table {
+                        border: 0 !important;
+                        font-size: 15px !important;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.filter-form {
+    .inputs {
+        #reportrange {
+            height: 54px !important;
+            line-height: 42px !important;
+        }
+        .select2-container--default {
+            .select2-selection--single {
+                .select2-selection__arrow {
+                    top: 10px !important;
+                }
+
+                .select2-selection__rendered {
+                    border: 0 !important;
+
+                    height: 54px !important;
+                    line-height: 54px !important;
+                }
+            }
+        }
+    }
+    .search_reset_btns {
+        @include buttonTemplate;
+    }
+}
+
+.grand-subbrand-info-box {
+    position: relative;
+    width: 100%;
+    padding: 12px;
+    border-radius: 4px;
+    background-color: #181818;
+    .edit-sub-brand-link {
+        &:after,
+        &::before {
+            display: none !important;
+        }
+        padding: 6px 12px;
+        background-color: #46484a;
+        color: #fff;
+        border-radius: 4px;
+        position: absolute;
+        top: 12px;
+        right: 12px;
+        transition: 0.2s all ease-in;
+        &:hover {
+            background-color: var(--gold_color);
+        }
+    }
+    .img-name-box {
+        padding-bottom: 12px;
+        display: flex;
+        align-items: center;
+        img {
+            width: 121.56px;
+            aspect-ratio: 1;
+            border-radius: 50%;
+        }
+        .name-box {
+            padding: 0 12px;
+            .name-item {
+                color: #fff !important ;
+                font-size: 18px !important;
+                font-weight: 600 !important;
+            }
+            .status-box {
+                width: fit-content;
+            }
+        }
+    }
+    .information_brands_list {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        align-items: flex-start;
+        .list-name {
+            min-width: 32% !important;
+            font-size: 16px !important;
+            font-weight: 600 !important;
+            color: #f2e1c5 !important;
+        }
+        span {
+            color: #f4f4f4 !important;
+            font-size: 16px;
+            font-weight: 600;
+        }
+        .list_accordion {
+            flex-wrap: wrap;
+            ._username_influncer,
+            ._country_table,
+            ._phone_table,
+            ._createdAt_table {
+                border: 0 !important;
+                background-color: #26221A !important;
+                color: #D59B3F !important;
+            }
+        }
+    }
+}
+.second_section {
+    &:has(.grand-subbrand-info-box) {
+        div {
+            margin-top: 0 !important;
+        }
+    }
+}
+
+.grand-filter-box-brand {
+    .create_form .select2-container .select2-selection--multiple,
+    .select2-container .select2-selection--single .select2-selection__rendered,
+    .modal .select2-container--default .select2-selection--multiple .select2-selection__rendered {
+        border: 1px solid #000 !important;
+        background: #000 !important;
+        height: 55px !important;
+        line-height: 55px !important;
+        text-align: start;
+        border-radius: 4px !important;
+    }
+    .select2-container--default .select2-selection--single .select2-selection__arrow {
+        top: 12px !important;
+    }
+    span.select2.select2-container.select2-container--default{
+        background-color: transparent !important;
+        background: transparent !important;
+    }
+
+        @include buttonTemplate;
+}
+

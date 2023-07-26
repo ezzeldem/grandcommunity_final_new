@@ -1,0 +1,114 @@
+.variants {
+    display: flex;
+}
+
+.variants > div {
+    margin-right: 5px;
+}
+
+.variants > div:last-of-type {
+    margin-right: 0;
+}
+
+.file {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.file > input[type='file'] {
+    display: none
+}
+
+.file > label {
+    font-size: 1rem;
+    font-weight: 300;
+    cursor: pointer;
+    outline: 0;
+    user-select: none;
+    border-color: rgb(216, 216, 216) rgb(209, 209, 209) rgb(186, 186, 186);
+    border-style: solid;
+    border-radius: 4px;
+    border-width: 1px;
+    background-color: hsl(0, 0%, 100%);
+    color: hsl(0, 0%, 29%);
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.file > label:hover {
+    border-color: hsl(0, 0%, 21%);
+}
+
+.file > label:active {
+    background-color: hsl(0, 0%, 96%);
+}
+
+.file > label > i {
+    padding-right: 5px;
+}
+
+.file--upload > label {
+    color: #22c03c;
+    border-color: #22c03c;
+}
+
+.file--upload > label:hover {
+    border-color: #59cb6c;
+    background-color: hsl(204, 86%, 96%);
+}
+
+.file--upload > label:active {
+    background-color: hsl(204, 86%, 91%);
+}
+
+
+.form-check-box{
+    display: inline-flex;
+    margin: 10px 15px auto;
+    gap: 10px;
+}
+.button {
+    position: relative;
+    background-color: white;
+    border: none;
+    border-radius: 20px;
+    display: inline-block;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    font-size: 15px;
+    padding: 0;
+}
+.button input:checked ~ span {
+    background-color: black;
+    color: white;
+}
+
+.button span {
+    display: block;
+    padding: 0.5rem 1rem;
+    border: 1px solid black;
+    border-radius: inherit;
+}
+
+.button input:focus ~ span,
+.button:focus {
+    outline: none;
+    box-shadow: 0 0 1px 3px DodgerBlue;
+}
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0,0,0,0);
+    border: 0;
+}

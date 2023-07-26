@@ -1,0 +1,1701 @@
+.overviewSec {
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+    background: #0c171d;
+}
+@media screen and (max-width: 720px) {
+    .overviewSec {
+        row-gap: 20px;
+    }
+}
+.overviewSec .influencerInfo {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 15px;
+}
+@media screen and (max-width: 720px) {
+    .overviewSec .influencerInfo {
+        gap: 7px;
+    }
+}
+.overviewSec .influencerInfo .img_personalInfo {
+    display: flex;
+    align-items: flex-start;
+    -moz-column-gap: 20px;
+    column-gap: 20px;
+}
+@media screen and (max-width: 720px) {
+    .overviewSec .influencerInfo .img_personalInfo {
+        -moz-column-gap: 7px;
+        column-gap: 7px;
+    }
+}
+.overviewSec .influencerInfo .img_personalInfo .img_container {
+    min-width: 75px;
+    max-width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    border: 3px solid #FD8087;
+    overflow: hidden;
+}
+@media screen and (max-width: 720px) {
+    .overviewSec .influencerInfo .img_personalInfo .img_container {
+        min-width: 40px;
+        max-width: 40px;
+        height: 40px;
+        border: 2px solid #FD8087;
+    }
+}
+.overviewSec .influencerInfo .img_personalInfo .img_container img {
+    width: 100%;
+    height: 100%;
+}
+.overviewSec .influencerInfo .img_personalInfo .personalInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 5px;
+}
+@media screen and (max-width: 720px) {
+    .overviewSec .influencerInfo .img_personalInfo .personalInfo {
+        row-gap: 0px;
+    }
+}
+.overviewSec .influencerInfo .img_personalInfo .personalInfo .userName_confirm {
+    display: flex;
+    align-items: center;
+    -moz-column-gap: 10px;
+    column-gap: 10px;
+}
+@media screen and (max-width: 720px) {
+    .overviewSec .influencerInfo .img_personalInfo .personalInfo .userName_confirm {
+        -moz-column-gap: 4px;
+        column-gap: 4px;
+    }
+}
+.overviewSec .influencerInfo .img_personalInfo .personalInfo .userName_confirm .userName {
+    color: #1492E6;
+    font-size: 14px;
+}
+@media screen and (max-width: 720px) {
+    .overviewSec .influencerInfo .img_personalInfo .personalInfo .userName_confirm .userName {
+        font-size: 10px;
+        max-width: 85px;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+    }
+}
+.overviewSec .influencerInfo .img_personalInfo .personalInfo .userName_confirm img {
+    width: 15px;
+    height: 15px;
+}
+@media screen and (max-width: 720px) {
+    .overviewSec .influencerInfo .img_personalInfo .personalInfo .userName_confirm img {
+        width: 11px;
+        height: 11px;
+    }
+}
+.overviewSec .influencerInfo .img_personalInfo .personalInfo .infuName_heart {
+    display: flex;
+    align-items: center;
+    -moz-column-gap: 10px;
+    column-gap: 10px;
+}
+@media screen and (max-width: 720px) {
+    .overviewSec .influencerInfo .img_personalInfo .personalInfo .infuName_heart {
+        -moz-column-gap: 4px;
+        column-gap: 4px;
+    }
+}
+.overviewSec .influencerInfo .img_personalInfo .personalInfo .infuName_heart .infuName {
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+}
+@media screen and (max-width: 720px) {
+    .overviewSec .influencerInfo .img_personalInfo .personalInfo .infuName_heart .infuName {
+        font-weight: 400;
+        font-size: 12px;
+        max-width: 80px;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+    }
+}
+.overviewSec .influencerInfo .img_personalInfo .personalInfo .infuName_heart i {
+    color: red;
+    font-size: 20px;
+}
+@media screen and (max-width: 720px) {
+    .overviewSec .influencerInfo .img_personalInfo .personalInfo .infuName_heart i {
+        font-size: 12px;
+    }
+}
+.overviewSec .influencerInfo .img_personalInfo .personalInfo .infuLocation {
+    display: flex;
+    align-items: center;
+    -moz-column-gap: 5px;
+    column-gap: 5px;
+    color: #AFAFAF;
+    font-size: 14px;
+}
+@media screen and (max-width: 720px) {
+    .overviewSec .influencerInfo .img_personalInfo .personalInfo .infuLocation {
+        font-size: 11px;
+    }
+}
+@media screen and (max-width: 720px) {
+    .overviewSec .influencerInfo .img_personalInfo .personalInfo .infuLocation span {
+        max-width: 95px;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+    }
+}
+.overviewSec .influencerInfo .img_personalInfo .personalInfo .infuJob {
+    color: #AFAFAF;
+    font-size: 14px;
+}
+@media screen and (max-width: 720px) {
+    .overviewSec .influencerInfo .img_personalInfo .personalInfo .infuJob {
+        font-size: 11px;
+    }
+}
+.overviewSec .influencerInfo .num_follwers {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    -moz-column-gap: 30px;
+    column-gap: 30px;
+}
+@media screen and (max-width: 720px) {
+    .overviewSec .influencerInfo .num_follwers {
+        -moz-column-gap: 7px;
+        column-gap: 7px;
+    }
+}
+.overviewSec .influencerInfo .num_follwers > div {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 7px;
+    color: #DAE7EF;
+    font-size: 22px;
+    font-weight: 600;
+}
+@media screen and (max-width: 720px) {
+    .overviewSec .influencerInfo .num_follwers > div {
+        font-size: 11px;
+        font-weight: 400;
+    }
+}
+.overviewSec .report_generate {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+    -moz-column-gap: 5px;
+    column-gap: 5px;
+    font-size: 13px;
+    color: #AFAFAF;
+}
+@media screen and (max-width: 720px) {
+    .overviewSec .report_generate {
+        -moz-column-gap: 3px;
+        column-gap: 3px;
+        font-size: 11px;
+    }
+}
+.overviewSec .export_compare {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    -moz-column-gap: 15px;
+    column-gap: 15px;
+}
+@media screen and (max-width: 720px) {
+    .overviewSec .export_compare {
+        -moz-column-gap: 10px;
+        column-gap: 10px;
+    }
+}
+.overviewSec .export_compare button {
+    border: 0;
+    outline: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    -moz-column-gap: 10px;
+    column-gap: 10px;
+    transition: 0.2s;
+}
+@media screen and (max-width: 720px) {
+    .overviewSec .export_compare button {
+        border-radius: 3px;
+        padding: 4px 6px;
+        font-weight: 400;
+        -moz-column-gap: 5px;
+        column-gap: 5px;
+        font-size: 12px;
+    }
+}
+.overviewSec .export_compare button:hover {
+    transform: scale(1.05);
+}
+.overviewSec .export_compare .exportBtn {
+    background: #4AA453;
+}
+.overviewSec .export_compare .compareBtn {
+    background: #1492E6;
+}
+.overviewSec .lower_container {
+    width: 100%;
+    border-radius: 10px;
+    border: 2px solid #8D8D8D;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+@media screen and (max-width: 720px) {
+    .overviewSec .lower_container {
+        border-radius: 5px;
+        padding: 5px;
+        border: 1px solid #8D8D8D;
+    }
+}
+.overviewSec .lower_container > div {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 10px;
+    font-weight: 700;
+}
+.overviewSec .lower_container > div .text {
+    color: #A4B1B9;
+    font-size: 22px;
+}
+@media screen and (max-width: 720px) {
+    .overviewSec .lower_container > div .text {
+        font-size: 13px;
+        font-weight: 400;
+    }
+}
+.overviewSec .lower_container > div .num {
+    color: #fff;
+    font-size: 22px;
+}
+@media screen and (max-width: 720px) {
+    .overviewSec .lower_container > div .num {
+        font-weight: 400;
+        font-size: 13px;
+    }
+}
+.overviewSec .lower_container .slash {
+    transform: rotate(52deg);
+    color: #8D8D8D;
+    font-size: 22px;
+}
+@media screen and (max-width: 720px) {
+    .overviewSec .lower_container .slash {
+        font-size: 14px;
+    }
+}
+/**/
+
+.growthSec {
+    /*margin: 50px 0;*/
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+    background: #0c171d;
+}
+@media screen and (max-width: 720px) {
+    .growthSec {
+        row-gap: 20px;
+    }
+}
+.growthSec .followersGrowth,  .growthSec .followingGrowth {
+    max-width: 1000px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+    margin: auto;
+}
+.growthSec .followersGrowth .title,  .growthSec .followingGrowth .title {
+    color: #A4B1B9;
+    font-weight: 600;
+    font-size: 20px;
+}
+@media screen and (max-width: 720px) {
+    .growthSec .followersGrowth .title,  .growthSec .followingGrowth .title {
+        font-size: 16px;
+    }
+}
+.growthSec table.dates {
+    max-width: 1000px;
+    width: 100%;
+    margin: 30px auto;
+}
+.growthSec table.dates thead td {
+    text-align: center;
+    color: #A9832C;
+    font-size: 20px;
+    font-weight: 500;
+}
+@media screen and (max-width: 720px) {
+    .growthSec table.dates thead td {
+        font-size: 14px;
+    }
+}
+.growthSec table.dates tbody td {
+    padding-block: 10px;
+    text-align: center;
+    color: #96989F;
+    font-size: 22px;
+    font-weight: 600;
+}
+@media screen and (max-width: 720px) {
+    .growthSec table.dates tbody td {
+        font-size: 13px;
+    }
+}
+.averageEngagementSec {
+    /*margin: 50px 0;*/
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+    background: #0c171d;
+}
+@media screen and (max-width: 720px) {
+    .averageEngagementSec {
+        row-gap: 20px;
+    }
+}
+.averageEngagementSec .EngagementRateInner {
+    max-width: 1000px;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+}
+@media screen and (max-width: 720px) {
+    .averageEngagementSec .EngagementRateInner {
+        row-gap: 20px;
+    }
+}
+.averageEngagementSec .EngagementRateInner .Avg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    -moz-column-gap: 35px;
+    column-gap: 35px;
+}
+@media screen and (max-width: 720px) {
+    .averageEngagementSec .EngagementRateInner .Avg {
+        -moz-column-gap: 20px;
+        column-gap: 20px;
+    }
+}
+.averageEngagementSec .EngagementRateInner .Avg > div {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 15px;
+}
+.averageEngagementSec .EngagementRateInner .Avg > div .text {
+    color: #A4B1B9;
+    font-size: 20px;
+    font-weight: 500;
+}
+@media screen and (max-width: 720px) {
+    .averageEngagementSec .EngagementRateInner .Avg > div .text {
+        font-size: 15px;
+    }
+}
+.averageEngagementSec .EngagementRateInner .Avg > div .num {
+    color: #fff;
+    font-size: 22px;
+    font-weight: 600;
+}
+@media screen and (max-width: 720px) {
+    .averageEngagementSec .EngagementRateInner .Avg > div .num {
+        font-size: 15px;
+    }
+}
+.averageEngagementSec .EngagementRateInner .engagementRateChart,  .averageEngagementSec .EngagementRateInner .engagementRateInsta {
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+}
+@media screen and (max-width: 720px) {
+    .averageEngagementSec .EngagementRateInner .engagementRateChart,  .averageEngagementSec .EngagementRateInner .engagementRateInsta {
+        row-gap: 20px;
+    }
+}
+.averageEngagementSec .EngagementRateInner .engagementRateChart .title,  .averageEngagementSec .EngagementRateInner .engagementRateInsta .title {
+    color: #A4B1B9;
+}
+.averageEngagementSec .EngagementRateInner .engagementRateInsta table.engagementRateInstaTable thead td {
+    text-align: center;
+    color: #A9832C;
+    font-size: 20px;
+    font-weight: 500;
+}
+@media screen and (max-width: 720px) {
+    .averageEngagementSec .EngagementRateInner .engagementRateInsta table.engagementRateInstaTable thead td {
+        font-size: 14px;
+    }
+}
+.averageEngagementSec .EngagementRateInner .engagementRateInsta table.engagementRateInstaTable tbody td {
+    padding-block: 10px;
+    text-align: center;
+    color: #CFDDE6;
+    font-size: 23px;
+    font-weight: 600;
+}
+@media screen and (max-width: 720px) {
+    .averageEngagementSec .EngagementRateInner .engagementRateInsta table.engagementRateInstaTable tbody td {
+        font-size: 13px;
+    }
+}
+.averageEngagementSec .EngagementRateInner .engagementRateInsta table.engagementRateInstaTable tbody td .profileENGCell {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    -moz-column-gap: 7px;
+    column-gap: 7px;
+}
+.averageEngagementSec .EngagementRateInner .engagementRateInsta table.engagementRateInstaTable tbody td .profileENGCell img {
+    width: 30px;
+    max-width: 30px;
+    border-radius: 50%;
+}
+@media screen and (max-width: 720px) {
+    .averageEngagementSec .EngagementRateInner .engagementRateInsta table.engagementRateInstaTable tbody td .profileENGCell img {
+        width: 25px;
+        max-width: 25px;
+    }
+}
+.engagementRatesSec {
+    /*margin: 50px 0;*/
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    background: #0c171d;
+}
+.engagementRatesSec .tableContainer {
+    max-width: 1000px;
+    width: 100%;
+    margin: auto;
+}
+.engagementRatesSec .tableContainer table.engagementRateInstaTable {
+    width: 100%;
+}
+.engagementRatesSec .tableContainer table.engagementRateInstaTable thead td {
+    text-align: center;
+    color: #A9832C;
+    font-size: 20px;
+    font-weight: 500;
+}
+@media screen and (max-width: 720px) {
+    .engagementRatesSec .tableContainer table.engagementRateInstaTable thead td {
+        font-size: 14px;
+    }
+}
+.engagementRatesSec .tableContainer table.engagementRateInstaTable tbody td {
+    padding-block: 10px;
+    text-align: center;
+    color: #CFDDE6;
+    font-size: 23px;
+    font-weight: 600;
+}
+@media screen and (max-width: 720px) {
+    .engagementRatesSec .tableContainer table.engagementRateInstaTable tbody td {
+        font-size: 13px;
+    }
+}
+.mediaStatusSec {
+    /*margin: 50px 0;*/
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+    background: #0c171d;
+}
+.anotherInfluencerSec {
+    /*margin: 50px 0;*/
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    background: #1C3238;
+    padding: 15px;
+    border-radius: 10px;
+    background: #0c171d;
+}
+.anotherInfluencerSec .checkInfluencer {
+    text-align: center;
+    color: #D1D1D1;
+    font-size: 30px;
+}
+@media screen and (max-width: 720px) {
+    .anotherInfluencerSec .checkInfluencer {
+        font-size: 18px;
+    }
+}
+.anotherInfluencerSec .input_submit {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    -moz-column-gap: 20px;
+    column-gap: 20px;
+    max-width: 500px;
+    margin: auto;
+}
+.anotherInfluencerSec .input_submit input {
+    border-radius: 4px;
+    outline: none;
+    border: 0;
+    background: white;
+    padding: 0px 15px;
+    height: 40px;
+    flex: 1 1 auto;
+    caret-color: #1C3238;
+}
+@media screen and (max-width: 720px) {
+    .anotherInfluencerSec .input_submit input {
+        height: 30px;
+        padding: 0 7px;
+    }
+}
+.anotherInfluencerSec .input_submit button {
+    border: 0;
+    outline: none;
+    height: 40px;
+    padding: 5px 10px;
+    background: #0C171D;
+    color: #FAFAFA;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: 0.3s;
+}
+@media screen and (max-width: 720px) {
+    .anotherInfluencerSec .input_submit button {
+        height: 30px;
+        padding: 3px 7px;
+    }
+}
+.anotherInfluencerSec .input_submit button:hover {
+    transform: scale(1.05);
+}
+.anotherInfluencerSec .over {
+    max-width: 500px;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: flex-start;
+    -moz-column-gap: 5px;
+    column-gap: 5px;
+    color: #D3D3D3;
+    font-size: 13px;
+}
+@media screen and (max-width: 720px) {
+    .anotherInfluencerSec .over {
+        font-size: 11px;
+    }
+}
+
+.mediaStatusSec .innerContiner {
+    max-width: 1000px;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+}
+@media screen and (max-width: 720px) {
+    .mediaStatusSec .innerContiner {
+        row-gap: 20px;
+    }
+}
+.mediaStatusSec .innerContiner > div {
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+}
+@media screen and (max-width: 720px) {
+    .mediaStatusSec .innerContiner > div {
+        row-gap: 20px;
+    }
+}
+.mediaStatusSec .innerContiner > div .title {
+    color: #A4B1B9;
+}
+.mediaStatusSec .innerContiner > div table.mediaStatusTable {
+    width: 100%;
+}
+.mediaStatusSec .innerContiner > div table.mediaStatusTable thead td {
+    text-align: center;
+    color: #A9832C;
+    font-size: 20px;
+    font-weight: 500;
+}
+@media screen and (max-width: 720px) {
+    .mediaStatusSec .innerContiner > div table.mediaStatusTable thead td {
+        font-size: 14px;
+    }
+}
+.mediaStatusSec .innerContiner > div table.mediaStatusTable tbody td {
+    padding-block: 10px;
+    text-align: center;
+    color: #CFDDE6;
+    font-size: 23px;
+    font-weight: 600;
+}
+@media screen and (max-width: 720px) {
+    .mediaStatusSec .innerContiner > div table.mediaStatusTable tbody td {
+        font-size: 13px;
+    }
+}
+.mediaStatusSec{
+    margin: 0;
+}
+.topHashtagsSec {
+    /*margin: 50px 0;*/
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    background: #0c171d;
+}
+.topHashtagsSec .hashtagList {
+    max-width: 1000px;
+    width: 100%;
+    margin: auto;
+}
+.topHashtagsSec .hashtagList ul {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+@media screen and (max-width: 720px) {
+    .topHashtagsSec .hashtagList ul {
+        row-gap: 10px;
+    }
+}
+.topHashtagsSec .hashtagList ul li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 300px;
+    -moz-column-gap: 50px;
+    column-gap: 50px;
+}
+.topHashtagsSec .hashtagList ul li .text {
+    color: white;
+    font-weight: bold;
+    font-size: 24px;
+}
+@media screen and (max-width: 720px) {
+    .topHashtagsSec .hashtagList ul li .text {
+        font-size: 14px;
+    }
+}
+.topHashtagsSec .hashtagList ul li .num {
+    color: #CFDDE6;
+    font-weight: bold;
+    font-size: 24px;
+}
+@media screen and (max-width: 720px) {
+    .topHashtagsSec .hashtagList ul li .num {
+        font-size: 14px;
+    }
+}
+.topMentionsSec{
+    background: #0c171d;
+}
+.topMentionsSec .title_lastMentions {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    -moz-column-gap: 20px;
+    column-gap: 20px;
+}
+.topMentionsSec .title_lastMentions .lastMentions {
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    -moz-column-gap: 5px;
+    column-gap: 5px;
+    color: #A4B1B9;
+}
+@media screen and (max-width: 720px) {
+    .topMentionsSec .title_lastMentions .lastMentions {
+        -moz-column-gap: 3px;
+        column-gap: 3px;
+        font-size: 12px;
+    }
+}
+.topMentionsSec .CardsGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(155px, 155px));
+    gap: 20px;
+    justify-items: center;
+    justify-content: center;
+}
+.topMentionsSec .CardsGrid .MentionCard {
+    background-color: #30393E;
+    border-radius: 4px;
+    width: 155px;
+    height: 180px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 10px;
+    padding: 15px;
+}
+.topMentionsSec .CardsGrid .MentionCard .MentionImg {
+    min-width: 75px;
+    max-width: 75px;
+    height:75px;
+    border-radius: 50%;
+}
+.topMentionsSec .CardsGrid .MentionCard .userName_confirm {
+    display: flex;
+    align-items: center;
+    -moz-column-gap: 10px;
+    column-gap: 10px;
+    color: #1492E6;
+}
+.topMentionsSec .CardsGrid .MentionCard .userName_confirm a {
+    max-width: 100px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.topMentionsSec .CardsGrid .MentionCard .userName_confirm a:hover {
+    color: #1492E6;
+}
+.topMentionsSec .CardsGrid .MentionCard .userName_confirm img {
+    width: 15px;
+    height: 15px;
+}
+.topMentionsSec .CardsGrid .MentionCard .numberMention {
+    color: #6C6C6C;
+}
+.topMentionsSec .seeMorePosts {
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    border: 0;
+    outline: none;
+    padding: 7px 15px;
+    border-radius: 3px;
+    color: white;
+    cursor: pointer;
+    transition: 0.5s;
+    -webkit-margin-start: auto;
+    margin-inline-start: auto;
+    background-image: linear-gradient(to right, #1492e6, #0a4973);
+}
+.topPostsSec {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    background: #0c171d;
+}
+.topPostsSec .postGridContainer {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    justify-items: center;
+    gap: 15px;
+}
+.topPostsSec .postGridContainer .instagram-media {
+    max-width: 350px !important;
+    min-width: 300px !important;
+    margin: 0 !important;
+}
+.topPostsSec .seeMorePosts {
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    border: 0;
+    outline: none;
+    padding: 7px 15px;
+    border-radius: 3px;
+    color: white;
+    cursor: pointer;
+    transition: 0.5s;
+    -webkit-margin-start: auto;
+    margin-inline-start: auto;
+    background-image: linear-gradient(to right, #1492e6, #0a4973);
+}
+@media screen and (max-width: 720px) {
+    .topPostsSec .seeMorePosts {
+        padding: 4px 6px;
+        font-size: 13px;
+    }
+}
+.topPostsSec .seeMorePosts:hover {
+    background-image: linear-gradient(to right, #0a4973, #1492e6);
+    transform: scale(1.03);
+}
+
+.overviewSec {
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+    background: #0c171d;
+}
+@media screen and (max-width: 720px) {
+    .overviewSec {
+        row-gap: 20px;
+    }
+}
+.overviewSec .influencerInfo {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 15px;
+}
+@media screen and (max-width: 720px) {
+    .overviewSec .influencerInfo {
+        gap: 7px;
+    }
+}
+.overviewSec .influencerInfo .img_personalInfo {
+    display: flex;
+    align-items: flex-start;
+    -moz-column-gap: 20px;
+    column-gap: 20px;
+}
+@media screen and (max-width: 720px) {
+    .overviewSec .influencerInfo .img_personalInfo {
+        -moz-column-gap: 7px;
+        column-gap: 7px;
+    }
+}
+.overviewSec .influencerInfo .img_personalInfo .img_container {
+    min-width: 75px;
+    max-width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    border: 3px solid #FD8087;
+    overflow: hidden;
+}
+@media screen and (max-width: 720px) {
+    .overviewSec .influencerInfo .img_personalInfo .img_container {
+        min-width: 40px;
+        max-width: 40px;
+        height: 40px;
+        border: 2px solid #FD8087;
+    }
+}
+.overviewSec .influencerInfo .img_personalInfo .img_container img {
+    width: 100%;
+    height: 100%;
+}
+.overviewSec .influencerInfo .img_personalInfo .personalInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 5px;
+}
+@media screen and (max-width: 720px) {
+    .overviewSec .influencerInfo .img_personalInfo .personalInfo {
+        row-gap: 0px;
+    }
+}
+.overviewSec .influencerInfo .img_personalInfo .personalInfo .userName_confirm {
+    display: flex;
+    align-items: center;
+    -moz-column-gap: 10px;
+    column-gap: 10px;
+}
+@media screen and (max-width: 720px) {
+    .overviewSec .influencerInfo .img_personalInfo .personalInfo .userName_confirm {
+        -moz-column-gap: 4px;
+        column-gap: 4px;
+    }
+}
+.overviewSec .influencerInfo .img_personalInfo .personalInfo .userName_confirm .userName {
+    color: #1492E6;
+    font-size: 14px;
+}
+@media screen and (max-width: 720px) {
+    .overviewSec .influencerInfo .img_personalInfo .personalInfo .userName_confirm .userName {
+        font-size: 10px;
+        max-width: 85px;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+    }
+}
+.overviewSec .influencerInfo .img_personalInfo .personalInfo .userName_confirm img {
+    width: 15px;
+    height: 15px;
+}
+@media screen and (max-width: 720px) {
+    .overviewSec .influencerInfo .img_personalInfo .personalInfo .userName_confirm img {
+        width: 11px;
+        height: 11px;
+    }
+}
+.overviewSec .influencerInfo .img_personalInfo .personalInfo .infuName_heart {
+    display: flex;
+    align-items: center;
+    -moz-column-gap: 10px;
+    column-gap: 10px;
+}
+@media screen and (max-width: 720px) {
+    .overviewSec .influencerInfo .img_personalInfo .personalInfo .infuName_heart {
+        -moz-column-gap: 4px;
+        column-gap: 4px;
+    }
+}
+.overviewSec .influencerInfo .img_personalInfo .personalInfo .infuName_heart .infuName {
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+}
+@media screen and (max-width: 720px) {
+    .overviewSec .influencerInfo .img_personalInfo .personalInfo .infuName_heart .infuName {
+        font-weight: 400;
+        font-size: 12px;
+        max-width: 80px;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+    }
+}
+.overviewSec .influencerInfo .img_personalInfo .personalInfo .infuName_heart i {
+    color: red;
+    font-size: 20px;
+}
+@media screen and (max-width: 720px) {
+    .overviewSec .influencerInfo .img_personalInfo .personalInfo .infuName_heart i {
+        font-size: 12px;
+    }
+}
+.overviewSec .influencerInfo .img_personalInfo .personalInfo .infuLocation {
+    display: flex;
+    align-items: center;
+    -moz-column-gap: 5px;
+    column-gap: 5px;
+    color: #AFAFAF;
+    font-size: 14px;
+}
+@media screen and (max-width: 720px) {
+    .overviewSec .influencerInfo .img_personalInfo .personalInfo .infuLocation {
+        font-size: 11px;
+    }
+}
+@media screen and (max-width: 720px) {
+    .overviewSec .influencerInfo .img_personalInfo .personalInfo .infuLocation span {
+        max-width: 95px;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+    }
+}
+.overviewSec .influencerInfo .img_personalInfo .personalInfo .infuJob {
+    color: #AFAFAF;
+    font-size: 14px;
+}
+@media screen and (max-width: 720px) {
+    .overviewSec .influencerInfo .img_personalInfo .personalInfo .infuJob {
+        font-size: 11px;
+    }
+}
+.overviewSec .influencerInfo .num_follwers {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    -moz-column-gap: 30px;
+    column-gap: 30px;
+}
+@media screen and (max-width: 720px) {
+    .overviewSec .influencerInfo .num_follwers {
+        -moz-column-gap: 7px;
+        column-gap: 7px;
+    }
+}
+.overviewSec .influencerInfo .num_follwers > div {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 7px;
+    color: #DAE7EF;
+    font-size: 22px;
+    font-weight: 600;
+}
+@media screen and (max-width: 720px) {
+    .overviewSec .influencerInfo .num_follwers > div {
+        font-size: 11px;
+        font-weight: 400;
+    }
+}
+.overviewSec .report_generate {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+    -moz-column-gap: 5px;
+    column-gap: 5px;
+    font-size: 13px;
+    color: #AFAFAF;
+}
+@media screen and (max-width: 720px) {
+    .overviewSec .report_generate {
+        -moz-column-gap: 3px;
+        column-gap: 3px;
+        font-size: 11px;
+    }
+}
+.overviewSec .export_compare {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    -moz-column-gap: 15px;
+    column-gap: 15px;
+}
+@media screen and (max-width: 720px) {
+    .overviewSec .export_compare {
+        -moz-column-gap: 10px;
+        column-gap: 10px;
+    }
+}
+.overviewSec .export_compare button {
+    border: 0;
+    outline: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    -moz-column-gap: 10px;
+    column-gap: 10px;
+    transition: 0.2s;
+}
+@media screen and (max-width: 720px) {
+    .overviewSec .export_compare button {
+        border-radius: 3px;
+        padding: 4px 6px;
+        font-weight: 400;
+        -moz-column-gap: 5px;
+        column-gap: 5px;
+        font-size: 12px;
+    }
+}
+.overviewSec .export_compare button:hover {
+    transform: scale(1.05);
+}
+.overviewSec .export_compare .exportBtn {
+    background: #4AA453;
+}
+.overviewSec .export_compare .compareBtn {
+    background: #1492E6;
+}
+.overviewSec .lower_container {
+    width: 100%;
+    border-radius: 10px;
+    border: 2px solid #8D8D8D;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+@media screen and (max-width: 720px) {
+    .overviewSec .lower_container {
+        border-radius: 5px;
+        padding: 5px;
+        border: 1px solid #8D8D8D;
+    }
+}
+.overviewSec .lower_container > div {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 10px;
+    font-weight: 700;
+}
+.overviewSec .lower_container > div .text {
+    color: #A4B1B9;
+    font-size: 22px;
+}
+@media screen and (max-width: 720px) {
+    .overviewSec .lower_container > div .text {
+        font-size: 13px;
+        font-weight: 400;
+    }
+}
+.overviewSec .lower_container > div .num {
+    color: #fff;
+    font-size: 22px;
+}
+@media screen and (max-width: 720px) {
+    .overviewSec .lower_container > div .num {
+        font-weight: 400;
+        font-size: 13px;
+    }
+}
+.overviewSec .lower_container .slash {
+    transform: rotate(52deg);
+    color: #8D8D8D;
+    font-size: 22px;
+}
+@media screen and (max-width: 720px) {
+    .overviewSec .lower_container .slash {
+        font-size: 14px;
+    }
+}
+/**/
+
+.growthSec {
+    /*margin: 50px 0;*/
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+    background: #0c171d;
+}
+@media screen and (max-width: 720px) {
+    .growthSec {
+        row-gap: 20px;
+    }
+}
+.growthSec .followersGrowth,  .growthSec .followingGrowth {
+    max-width: 1000px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+    margin: auto;
+}
+.growthSec .followersGrowth .title,  .growthSec .followingGrowth .title {
+    color: #A4B1B9;
+    font-weight: 600;
+    font-size: 20px;
+}
+@media screen and (max-width: 720px) {
+    .growthSec .followersGrowth .title,  .growthSec .followingGrowth .title {
+        font-size: 16px;
+    }
+}
+.growthSec table.dates {
+    max-width: 1000px;
+    width: 100%;
+    margin: 30px auto;
+}
+.growthSec table.dates thead td {
+    text-align: center;
+    color: #A9832C;
+    font-size: 20px;
+    font-weight: 500;
+}
+@media screen and (max-width: 720px) {
+    .growthSec table.dates thead td {
+        font-size: 14px;
+    }
+}
+.growthSec table.dates tbody td {
+    padding-block: 10px;
+    text-align: center;
+    color: #96989F;
+    font-size: 22px;
+    font-weight: 600;
+}
+@media screen and (max-width: 720px) {
+    .growthSec table.dates tbody td {
+        font-size: 13px;
+    }
+}
+.averageEngagementSec {
+    /*margin: 50px 0;*/
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+    background: #0c171d;
+}
+@media screen and (max-width: 720px) {
+    .averageEngagementSec {
+        row-gap: 20px;
+    }
+}
+.averageEngagementSec .EngagementRateInner {
+    max-width: 1000px;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+}
+@media screen and (max-width: 720px) {
+    .averageEngagementSec .EngagementRateInner {
+        row-gap: 20px;
+    }
+}
+.averageEngagementSec .EngagementRateInner .Avg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    -moz-column-gap: 35px;
+    column-gap: 35px;
+}
+@media screen and (max-width: 720px) {
+    .averageEngagementSec .EngagementRateInner .Avg {
+        -moz-column-gap: 20px;
+        column-gap: 20px;
+    }
+}
+.averageEngagementSec .EngagementRateInner .Avg > div {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 15px;
+}
+.averageEngagementSec .EngagementRateInner .Avg > div .text {
+    color: #A4B1B9;
+    font-size: 20px;
+    font-weight: 500;
+}
+@media screen and (max-width: 720px) {
+    .averageEngagementSec .EngagementRateInner .Avg > div .text {
+        font-size: 15px;
+    }
+}
+.averageEngagementSec .EngagementRateInner .Avg > div .num {
+    color: #fff;
+    font-size: 22px;
+    font-weight: 600;
+}
+@media screen and (max-width: 720px) {
+    .averageEngagementSec .EngagementRateInner .Avg > div .num {
+        font-size: 15px;
+    }
+}
+.averageEngagementSec .EngagementRateInner .engagementRateChart,  .averageEngagementSec .EngagementRateInner .engagementRateInsta {
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+}
+@media screen and (max-width: 720px) {
+    .averageEngagementSec .EngagementRateInner .engagementRateChart,  .averageEngagementSec .EngagementRateInner .engagementRateInsta {
+        row-gap: 20px;
+    }
+}
+.averageEngagementSec .EngagementRateInner .engagementRateChart .title,  .averageEngagementSec .EngagementRateInner .engagementRateInsta .title {
+    color: #A4B1B9;
+}
+.averageEngagementSec .EngagementRateInner .engagementRateInsta table.engagementRateInstaTable thead td {
+    text-align: center;
+    color: #A9832C;
+    font-size: 20px;
+    font-weight: 500;
+}
+@media screen and (max-width: 720px) {
+    .averageEngagementSec .EngagementRateInner .engagementRateInsta table.engagementRateInstaTable thead td {
+        font-size: 14px;
+    }
+}
+.averageEngagementSec .EngagementRateInner .engagementRateInsta table.engagementRateInstaTable tbody td {
+    padding-block: 10px;
+    text-align: center;
+    color: #CFDDE6;
+    font-size: 23px;
+    font-weight: 600;
+}
+@media screen and (max-width: 720px) {
+    .averageEngagementSec .EngagementRateInner .engagementRateInsta table.engagementRateInstaTable tbody td {
+        font-size: 13px;
+    }
+}
+.averageEngagementSec .EngagementRateInner .engagementRateInsta table.engagementRateInstaTable tbody td .profileENGCell {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    -moz-column-gap: 7px;
+    column-gap: 7px;
+}
+.averageEngagementSec .EngagementRateInner .engagementRateInsta table.engagementRateInstaTable tbody td .profileENGCell img {
+    width: 30px;
+    max-width: 30px;
+    border-radius: 50%;
+}
+@media screen and (max-width: 720px) {
+    .averageEngagementSec .EngagementRateInner .engagementRateInsta table.engagementRateInstaTable tbody td .profileENGCell img {
+        width: 25px;
+        max-width: 25px;
+    }
+}
+.engagementRatesSec {
+    /*margin: 50px 0;*/
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    background: #0c171d;
+}
+.engagementRatesSec .tableContainer {
+    max-width: 1000px;
+    width: 100%;
+    margin: auto;
+}
+.engagementRatesSec .tableContainer table.engagementRateInstaTable {
+    width: 100%;
+}
+.engagementRatesSec .tableContainer table.engagementRateInstaTable thead td {
+    text-align: center;
+    color: #A9832C;
+    font-size: 20px;
+    font-weight: 500;
+}
+@media screen and (max-width: 720px) {
+    .engagementRatesSec .tableContainer table.engagementRateInstaTable thead td {
+        font-size: 14px;
+    }
+}
+.engagementRatesSec .tableContainer table.engagementRateInstaTable tbody td {
+    padding-block: 10px;
+    text-align: center;
+    color: #CFDDE6;
+    font-size: 23px;
+    font-weight: 600;
+}
+@media screen and (max-width: 720px) {
+    .engagementRatesSec .tableContainer table.engagementRateInstaTable tbody td {
+        font-size: 13px;
+    }
+}
+.mediaStatusSec {
+    /*margin: 50px 0;*/
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+    background: #0c171d;
+}
+.anotherInfluencerSec {
+    /*margin: 50px 0;*/
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    background: #1C3238;
+    padding: 15px;
+    border-radius: 10px;
+    background: #0c171d;
+}
+.anotherInfluencerSec .checkInfluencer {
+    text-align: center;
+    color: #D1D1D1;
+    font-size: 30px;
+}
+@media screen and (max-width: 720px) {
+    .anotherInfluencerSec .checkInfluencer {
+        font-size: 18px;
+    }
+}
+.anotherInfluencerSec .input_submit {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    -moz-column-gap: 20px;
+    column-gap: 20px;
+    max-width: 500px;
+    margin: auto;
+}
+.anotherInfluencerSec .input_submit input {
+    border-radius: 4px;
+    outline: none;
+    border: 0;
+    background: white;
+    padding: 0px 15px;
+    height: 40px;
+    flex: 1 1 auto;
+    caret-color: #1C3238;
+}
+@media screen and (max-width: 720px) {
+    .anotherInfluencerSec .input_submit input {
+        height: 30px;
+        padding: 0 7px;
+    }
+}
+.anotherInfluencerSec .input_submit button {
+    border: 0;
+    outline: none;
+    height: 40px;
+    padding: 5px 10px;
+    background: #0C171D;
+    color: #FAFAFA;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: 0.3s;
+}
+@media screen and (max-width: 720px) {
+    .anotherInfluencerSec .input_submit button {
+        height: 30px;
+        padding: 3px 7px;
+    }
+}
+.anotherInfluencerSec .input_submit button:hover {
+    transform: scale(1.05);
+}
+.anotherInfluencerSec .over {
+    max-width: 500px;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: flex-start;
+    -moz-column-gap: 5px;
+    column-gap: 5px;
+    color: #D3D3D3;
+    font-size: 13px;
+}
+@media screen and (max-width: 720px) {
+    .anotherInfluencerSec .over {
+        font-size: 11px;
+    }
+}
+
+.mediaStatusSec .innerContiner {
+    max-width: 1000px;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+}
+@media screen and (max-width: 720px) {
+    .mediaStatusSec .innerContiner {
+        row-gap: 20px;
+    }
+}
+.mediaStatusSec .innerContiner > div {
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+}
+@media screen and (max-width: 720px) {
+    .mediaStatusSec .innerContiner > div {
+        row-gap: 20px;
+    }
+}
+.mediaStatusSec .innerContiner > div .title {
+    color: #A4B1B9;
+}
+.mediaStatusSec .innerContiner > div table.mediaStatusTable {
+    width: 100%;
+}
+.mediaStatusSec .innerContiner > div table.mediaStatusTable thead td {
+    text-align: center;
+    color: #A9832C;
+    font-size: 20px;
+    font-weight: 500;
+}
+@media screen and (max-width: 720px) {
+    .mediaStatusSec .innerContiner > div table.mediaStatusTable thead td {
+        font-size: 14px;
+    }
+}
+.mediaStatusSec .innerContiner > div table.mediaStatusTable tbody td {
+    padding-block: 10px;
+    text-align: center;
+    color: #CFDDE6;
+    font-size: 23px;
+    font-weight: 600;
+}
+@media screen and (max-width: 720px) {
+    .mediaStatusSec .innerContiner > div table.mediaStatusTable tbody td {
+        font-size: 13px;
+    }
+}
+.mediaStatusSec{
+    margin: 0;
+}
+.topHashtagsSec {
+    /*margin: 50px 0;*/
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    background: #0c171d;
+}
+.topHashtagsSec .hashtagList {
+    max-width: 1000px;
+    width: 100%;
+    margin: auto;
+}
+.topHashtagsSec .hashtagList ul {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+@media screen and (max-width: 720px) {
+    .topHashtagsSec .hashtagList ul {
+        row-gap: 10px;
+    }
+}
+.topHashtagsSec .hashtagList ul li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 300px;
+    -moz-column-gap: 50px;
+    column-gap: 50px;
+}
+.topHashtagsSec .hashtagList ul li .text {
+    color: white;
+    font-weight: bold;
+    font-size: 24px;
+}
+@media screen and (max-width: 720px) {
+    .topHashtagsSec .hashtagList ul li .text {
+        font-size: 14px;
+    }
+}
+.topHashtagsSec .hashtagList ul li .num {
+    color: #CFDDE6;
+    font-weight: bold;
+    font-size: 24px;
+}
+@media screen and (max-width: 720px) {
+    .topHashtagsSec .hashtagList ul li .num {
+        font-size: 14px;
+    }
+}
+.topMentionsSec{
+    background: #0c171d;
+}
+.topMentionsSec .title_lastMentions {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    -moz-column-gap: 20px;
+    column-gap: 20px;
+}
+.topMentionsSec .title_lastMentions .lastMentions {
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    -moz-column-gap: 5px;
+    column-gap: 5px;
+    color: #A4B1B9;
+}
+@media screen and (max-width: 720px) {
+    .topMentionsSec .title_lastMentions .lastMentions {
+        -moz-column-gap: 3px;
+        column-gap: 3px;
+        font-size: 12px;
+    }
+}
+.topMentionsSec .CardsGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(155px, 155px));
+    gap: 20px;
+    justify-items: center;
+    justify-content: center;
+}
+.topMentionsSec .CardsGrid .MentionCard {
+    background-color: #30393E;
+    border-radius: 4px;
+    width: 155px;
+    height: 180px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 10px;
+    padding: 15px;
+}
+.topMentionsSec .CardsGrid .MentionCard .MentionImg {
+    min-width: 75px;
+    max-width: 75px;
+    height:75px;
+    border-radius: 50%;
+}
+.topMentionsSec .CardsGrid .MentionCard .userName_confirm {
+    display: flex;
+    align-items: center;
+    -moz-column-gap: 10px;
+    column-gap: 10px;
+    color: #1492E6;
+}
+.topMentionsSec .CardsGrid .MentionCard .userName_confirm a {
+    max-width: 100px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.topMentionsSec .CardsGrid .MentionCard .userName_confirm a:hover {
+    color: #1492E6;
+}
+.topMentionsSec .CardsGrid .MentionCard .userName_confirm img {
+    width: 15px;
+    height: 15px;
+}
+.topMentionsSec .CardsGrid .MentionCard .numberMention {
+    color: #6C6C6C;
+}
+.topMentionsSec .seeMorePosts {
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    border: 0;
+    outline: none;
+    padding: 7px 15px;
+    border-radius: 3px;
+    color: white;
+    cursor: pointer;
+    transition: 0.5s;
+    -webkit-margin-start: auto;
+    margin-inline-start: auto;
+    background-image: linear-gradient(to right, #1492e6, #0a4973);
+}
+.topPostsSec {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    background: #0c171d;
+}
+.topPostsSec .postGridContainer {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    justify-items: center;
+    gap: 15px;
+}
+.topPostsSec .postGridContainer .instagram-media {
+    max-width: 350px !important;
+    min-width: 300px !important;
+    margin: 0 !important;
+}
+.topPostsSec .seeMorePosts {
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    border: 0;
+    outline: none;
+    padding: 7px 15px;
+    border-radius: 3px;
+    color: white;
+    cursor: pointer;
+    transition: 0.5s;
+    -webkit-margin-start: auto;
+    margin-inline-start: auto;
+    background-image: linear-gradient(to right, #1492e6, #0a4973);
+}
+@media screen and (max-width: 720px) {
+    .topPostsSec .seeMorePosts {
+        padding: 4px 6px;
+        font-size: 13px;
+    }
+}
+.topPostsSec .seeMorePosts:hover {
+    background-image: linear-gradient(to right, #0a4973, #1492e6);
+    transform: scale(1.03);
+}

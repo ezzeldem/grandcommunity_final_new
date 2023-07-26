@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "../../../node_modules/element-ui/packages/theme-chalk/src/infinite-scroll.scss"
+    ],
+    "names": [],
+    "file": "infinite-scroll.css"
+}

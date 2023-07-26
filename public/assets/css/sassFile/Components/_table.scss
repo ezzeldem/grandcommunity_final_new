@@ -1,0 +1,53 @@
+.grand-campaign-section {
+  ._username_influncer,
+  ._createdAt_table {
+      border: 0 !important;
+      font-weight: 500 !important;
+      font-size: 15px !important;
+      color: #fafafa !important;
+      padding: 5px 14px !important;
+      &:is(a) {
+          cursor: pointer !important;
+      }
+  }
+}
+
+.grand-state-box {
+  background-color: transparent;
+  border: 0 !important;
+  font-weight: 500 !important;
+  font-size: 14px !important;
+  padding: 5px 14px !important;
+  &.Pending {
+      background-color: #e2e3e53b !important;
+      color: #f4f4f4 !important;
+  }
+  &.Active {
+      color: #fff !important;
+      background-color: #3b7f34 !important;
+  }
+  &.Finished {
+      color: #f4f4f4 !important;
+      background-color: #3b7f34 !important;
+  }
+  &.Canceled {
+      color: #f4f4f4 !important;
+      background-color: #d6d8d938 !important;
+  }
+  &.Upcoming {
+      color: #f4f4f4 !important;
+      background-color: #d1ecf144 !important;
+  }
+  &.Drafted {
+      color: #f4f4f4 !important;
+      background-color: #f8d7da31 !important;
+  }
+}
+
+.table-responsive{
+    &::-webkit-scrollbar{
+        height: 2px !important;
+        width: 2px !important;
+    }
+
+}

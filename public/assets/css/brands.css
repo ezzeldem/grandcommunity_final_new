@@ -1,0 +1,198 @@
+.brand-det-row span{
+    color: #fff;
+}
+.brand-det-row span:last-of-type{
+    color: #DDCEB5;
+}
+.editRow{
+    padding: 5px 15px;
+    background-color: #202020;
+    color: #fff !important;
+    font-weight: normal;
+}
+.InAcceptRow{
+    background-color: #3A2D19 !important;
+    color: #9b7128 !important;
+}
+.InAcceptRow.hvr-sweep-to-right:before{
+    background-color: #9b7128;
+}
+.InAcceptRow.hvr-sweep-to-right:hover
+{
+    color: #fff !important;
+}
+.main-profile-overview .parent_nav,
+.tabs-menu .panel-tabs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0;
+}
+.tapsli {
+    padding: 5px 15px;
+    border-radius: 3px;
+    border: 0 !important;
+    color: #fff !important;
+    background-color: transparent !important;
+    margin-bottom: 0 !important;
+    color: #fff;
+}
+.main-profile-overview .parent_nav .active,
+.tabs-menu .panel-tabs .active{
+    color: white !important;
+    background-color: rgba(155, 112, 41, 0.21) !important;
+    color: #9b7128 !important;
+    padding: 10px 15px !important;
+    border-radius: 0;
+    border: 0;
+}
+.main-profile-overview .parent_nav .active span,
+.main-profile-overview .parent_nav .active span i,
+.tabs-menu .panel-tabs .active span,
+.tabs-menu .panel-tabs .active span i
+{
+    color: #9b7128 !important;
+}
+.main-profile-social-list  .parent-head,
+.tabs-menu .panel-tabs .parent-head{
+    background: #1d1d1d !important;
+}
+.main-profile-social-list .new-active,
+.tabs-menu .panel-tabs .new-active{
+    background: #1d1d1d !important;
+}
+.main-profile-social-list {
+    overflow-x: scroll !important;
+    width: 100% !important;
+}
+@media(MAX-WIDTH: 480PX){
+    .main-profile-social-list{
+        max-width: 350px
+    }
+}
+#custom{
+    background: #202020 !important;
+    border-color: #202020 !important;
+    padding: 8px 15px;
+}
+/* .brand-table .dt-buttons{
+    position: relative !important;
+} */
+.actions.sorting_1{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: row;
+    gap: 5px;
+}
+#sub-brand-form .select2-container--default .select2-search--inline .select2-search__field {
+    background: #202020;
+}
+@media (min-width: 576px){
+    #sub_brand_modal .modal-dialog {
+        max-width: max-content;
+        margin: auto;
+    }
+}
+.input-group-text {
+    border: 1px solid #202020 !important;
+}
+#sub_brand_modal .btn.Active.hvr-sweep-to-right.btn-warning{
+    background: transparent !important;
+}
+button:focus{
+    outline: none !important;
+    box-shadow: none !important;
+}
+#append .group-details,
+.main-profile-social-list #append  {
+    background: #1d1d1d;
+}
+#merge_group_modal span.select2.select2-container.select2-container--default {
+    background-color: #202020 !important;
+}
+#merge_group_modal .form-check-label{
+    margin-top: 0;
+    margin-left: 8px;
+}
+#influe_group_list_wrapper input#custom {
+    position: absolute;
+    top: 16px;
+    right: 0px;
+}
+input#search_fav_table_list {
+    background: #292828;
+    border-color: #292828 !important;
+    padding-left: 12px;
+    height: 35px !important;
+}
+.overview_subBrand{
+    padding: 20px
+}
+.overview_subBrand .information_brands{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+.overview_subBrand .information_brands img{
+    width: 90px;
+    height: 90px;
+}
+#group_name{
+    font-weight: bold
+}
+.information_brands_list {
+    margin-top: 20px;
+}
+.information_brands_list span:last-of-type {
+    color: #DDCEB5;
+}
+.list_btns {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 15px;
+    gap: 15px
+}
+.list_btns button.collapsed{
+    color: #fff !important;
+    font-weight: bold !important;
+    text-decoration: none !important;
+    font-size: 16px !important;
+    background-color: transparent !important;
+}
+.list_btns button{
+    background-color: rgba(155, 112, 41, 0.21) !important;
+    color: #9b7128 !important;
+    font-size: 16px !important;
+    text-decoration: none !important;
+
+}
+.list_btns button:hover{
+    background-color: rgba(155, 112, 41, 0.21) !important;
+    color: #9b7128 !important;
+}
+.btn_group button{
+    margin-bottom: 8px
+}
+.show_brands{
+    position: relative !important;
+    top: initial;
+    margin-bottom: 15px;
+}
+#pills-setting label{
+    color: #fff !important;
+    font-size: 15px;
+    margin-bottom: 0 !important
+}
+.form-check {
+    border-bottom: 1px solid #181818;
+    padding: 25px 15px
+}
+#pills-setting input{
+    accent-color: #9b7128;
+}
